@@ -130,7 +130,7 @@ def highly_divisible_tringular_number_optimised2(num, primes_arr):
 
 
 if __name__ == '__main__':
-    arr = prime_array_generator(7000);
+    arr = prime_array_generator(7000)
 
     start = time.time()
     print(highly_divisible_tringular_number_optimised(500, arr))
